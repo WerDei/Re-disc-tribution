@@ -1,0 +1,19 @@
+{
+    "pools": [      
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 11
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_mall",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

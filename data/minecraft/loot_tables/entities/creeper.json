@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    },
+
+
+    
+
+    {
+        
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "minecraft:tag",
+                "name": "minecraft:creeper_drop_music_discs",
+                "expand": true
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                    "type": "#minecraft:skeletons"
+                },
+                "entity": "killer"
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "entity_properties",
+                    "predicate": {
+                        "nbt": "{powered:1b}"
+                    },
+                    "entity": "this"
+                }
+            }
+        ],
+        "rolls": 1.0
+    },
+  
+  
+    {
+        "entries": [
+            {
+                "type": "minecraft:tag",
+                "name": "redisctribution:charged_creeper_drop_music_discs",
+                "expand": true
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "predicate": {
+                    "nbt": "{powered:1b}"
+                },
+                "entity": "this"
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                    "type": "#minecraft:skeletons"
+                },
+                "entity": "killer"
+            }
+        ],
+        "rolls": 1.0
+    }
+
+
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}
