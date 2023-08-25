@@ -8,8 +8,9 @@ This datapack, inspired by newer updates, will re-distribute some of these older
 Changes made by this pack:
 
 - Since this is already a thing in Bedrock Edition, Mellohi and Wait now generate in buried treasure chests.
+- Far is now a rare fishing treasure
 - 11 can be found in Mineshafts, along with Cat and 13.
 - Stal now generates in Woodland Mansions.
 - Ward can generate in a Jungle Temple, or (with a lower chance) in a Desert Pyramid
 - Villagers (of any profession) will sometimes reward you with Mall for beating a raid.
-- Usual skeleton method now will only provide discs 13, Cat, Blocks, Chirp, and Far. If a skeleton kills a creeper that is *charged*, it will drop Strad instead. Good luck.
+- Usual skeleton method now will only provide discs 13, Cat, Blocks, and Chirp. If a skeleton kills a creeper that is *charged*, it will drop Strad instead. Good luck.
